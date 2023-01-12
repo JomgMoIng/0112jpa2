@@ -37,7 +37,7 @@ public class BoardDto {
         boardEntity.setTitle(boardDto.getTitle());
         boardEntity.setWriter(boardDto.getWriter());
         boardEntity.setContent(boardDto.getContent());
-        boardEntity.setCreateDate(boardDto.getCreateDate());
+        boardEntity.setCreateDate(new Date());
 
         return boardEntity;
     }
